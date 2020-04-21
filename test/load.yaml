@@ -7,3 +7,7 @@ phantom:
       - /
 telegraf:
     enabled: false
+overload:
+  enabled: true
+  package: yandextank.plugins.DataUploader
+  token_file: "~/token.txt"
