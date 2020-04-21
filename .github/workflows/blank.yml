@@ -37,5 +37,5 @@ jobs:
       
     # Runs a single command using the runners shell
     - name: Run yandex-tank -c test/load.yaml
-      run: yandex-tank --version
+      run: yandex-tank -c test/load.yaml
 
