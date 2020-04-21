@@ -33,7 +33,7 @@ jobs:
       run: docker ps -a
 
     - name: Curl
-      run: curl localhost:5000 
+      run: curl localhost:5000
       
     # Runs a single command using the runners shell
     - name: Run yandex-tank
