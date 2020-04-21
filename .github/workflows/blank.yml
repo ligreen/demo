@@ -42,6 +42,6 @@ jobs:
     - name: Run yandex-tank -c test/load.yaml
       run: yandex-tank -c test/load.yaml
       
-    - name: Stop docker
-      run: docker stop demo_app
+    - name: Remove docker
+      run: docker rm -f demo_app
 
