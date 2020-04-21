@@ -33,7 +33,7 @@ jobs:
       run: docker ps -a
 
     - name: Curl
-      run: sleep 5; curl localhost:5000
+      run: sleep 5; curl localhost:5000 
       
     - name: ls
       run: ls -la ~/; whoami
