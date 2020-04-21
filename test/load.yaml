@@ -10,4 +10,4 @@ telegraf:
 overload:
   enabled: true
   package: yandextank.plugins.DataUploader
-  token_file: "~/token.txt"
+  token_file: "/secret/token.txt"
