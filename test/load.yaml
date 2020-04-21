@@ -1,0 +1,9 @@
+phantom:
+    address: localhost:5000
+    load_profile: 
+        load_type: rps
+        schedule: const(1,1m)
+    uris:
+      - /
+telegraf:
+    enabled: false
