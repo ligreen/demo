@@ -36,7 +36,7 @@ jobs:
       run: sleep 5; curl localhost:5000
       
     - name: ls
-      run: ls -la ~/
+      run: ls -la ~/; whoami
       
     # Runs a single command using the runners shell
     - name: Run yandex-tank -c test/load.yaml
