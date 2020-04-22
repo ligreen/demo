@@ -7,6 +7,11 @@ phantom:
       - /
 telegraf:
     enabled: false
+console:
+    short_only: 1
+autostop:
+    autostop:
+    - quantile (95,100ms,10s)
 overload:
   enabled: true
   package: yandextank.plugins.DataUploader
