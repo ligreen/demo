@@ -8,7 +8,7 @@ phantom:
 telegraf:
     enabled: false
 console:
-    short_only: 1
+    short_only: true
 autostop:
     autostop:
     - quantile (95,100ms,10s)
